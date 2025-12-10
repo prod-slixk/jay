@@ -79,10 +79,16 @@ li {
 
 
 
-#about{
+#about,
+#discord,
+#contact{
     padding: 48px 0;
-    background-color: #f8ffdc;
     
+    
+}
+
+#about {
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -126,6 +132,18 @@ h2{
 
 
 
+
 #discord {
     background-color: #cefeff;
+}
+
+#contact {
+    background-color: #dce9ff;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
